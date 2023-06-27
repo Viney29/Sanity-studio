@@ -54,6 +54,12 @@ export default defineType({
       description: 'Collection data from Shopify (read-only)',
       group: 'shopifySync',
     }),
+    defineField({
+      name: 'body',
+      type: 'blockContent',
+      group: 'editorial',
+    }),
+    
   ],
   preview: {
     select: {

@@ -28,5 +28,23 @@ export default defineField({
     defineArrayMember({
       type: 'accordion',
     }),
+    defineArrayMember({
+      type: 'collectionBanner',
+    }),
+    defineArrayMember({
+      type: 'faq',
+    }),
+    defineArrayMember({
+      type: 'linkExternal',
+    }),
+    defineArrayMember({
+      type: 'callToAction',
+    }),
+    defineArrayMember({
+      type: 'textImage',
+    }),
+    defineArrayMember({
+      type: 'threeColumn',
+    }),
   ],
 })

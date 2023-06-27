@@ -52,6 +52,34 @@ export default defineType({
       type: 'shopifyProductVariant',
       group: 'shopifySync',
     }),
+    defineField({
+      name: 'body',
+      type: 'blockContent',
+      group: 'editorial',
+    }),
+    defineField({
+      name: 'specifications',
+      title:'Specifications',
+      type: 'object',
+      group: 'editorial',
+      fields:[
+        defineField({
+          name:'width',
+          title: 'Width',
+          type: 'number',
+        }),
+        defineField({
+          name:'height',
+          title: 'Height',
+          type: 'number',
+        }),
+        defineField({
+          name:'depth',
+          title: 'Depth',
+          type: 'number',
+        }),
+      ]
+    }),
   ],
   preview: {
     select: {

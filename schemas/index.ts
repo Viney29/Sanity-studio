@@ -15,15 +15,26 @@ import shopifyCollection from './objects/shopifyCollection'
 import shopifyCollectionRule from './objects/shopifyCollectionRule'
 import shopifyProduct from './objects/shopifyProduct'
 import shopifyProductVariant from './objects/shopifyProductVariant'
-
+import faq from './objects/faq'
+import linkExternal from './objects/linkExternal'
+import collectionBanner from './objects/modules/collectionBanner'
 // block content
 import blockContent from './blocks/blockContent'
+import callToAction from './objects/modules/callToAction'
+import textImage from './objects/modules/textImage'
+import threeColumn from './objects/modules/threeColumn'
 
 export const schemaTypes = [
   // document types
   collection,
   product,
   productVariant,
+
+  // modules
+  callToAction,
+  collectionBanner,
+  textImage,
+  threeColumn,
 
   // objects
   accordion,
@@ -37,6 +48,8 @@ export const schemaTypes = [
   shopifyCollectionRule,
   shopifyProduct,
   shopifyProductVariant,
+  faq,
+  linkExternal,
 
   // block content
   blockContent,

@@ -15,6 +15,7 @@ export default defineType({
       type: 'array',
       of: [{type: 'accordionGroup'}],
     }),
+    
   ],
   preview: {
     select: {
